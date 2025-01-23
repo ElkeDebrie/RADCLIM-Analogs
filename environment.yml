@@ -1,0 +1,14 @@
+name: radclim-analogs
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - jupyter
+  - matplotlib
+  - numpy
+  - xarray
+  - zarr
+  - cartopy
+  - pip
+  - pip:
+    - cmocean
