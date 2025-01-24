@@ -1,11 +1,11 @@
 # RADCLIM-Analogs: High-Resolution Gridded Hourly Precipitation dataset for Belgium (1940-2016) Using the Analogue Technique
 
-This repository holds a notebook describing how to find the analogues for a given date between the 1st January 1940 and the 31st December 2006 in the **RADCLIM-Analogs** dataset. 
+This repository holds a notebook describing how to find the analogs for a given date between the 1st January 1940 and the 31st December 2006 in the **RADCLIM-Analogs** dataset.
 
 This dataset provides maps at 1 km resolution of the hourly accumulated precipitation over Belgium from 1940 to 2016. 
 We used the analog technique to provide for every day in the past (1940 – 2016) the 25 best analogs selected from the high resolution RMI RADCLIM radar database that is available from 2017 to 2022.
 
-This notebook is provided as supplementary material for the article:
+This notebook is provided as supplementary material to the article:
 
 * Debrie, E., Demaeyer, J., and Vannitsem, S.: Hourly precipitation series over Belgium based on the Analogue Technique, Earth Syst. Sci. Data Discuss. [preprint], doi:, in review, 2025.
 
@@ -14,11 +14,11 @@ Before running this notebook, the dataset must first be downloaded from the Zeno
 ## Running the notebook
 
 The needed dependencies are detailed in the `environment.yml` file.
-It allows also one easily create a [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.anaconda.com/miniconda/) environment:
+It allows one to easily create an [Anaconda](https://www.anaconda.com/) or a [Miniconda](https://docs.anaconda.com/miniconda/) environment:
 
     conda env create -f environment.yml
 
-Then one just need to run
+Then one just needs to run
 
     conda activate radclim-analogs
     jupyter-notebook
